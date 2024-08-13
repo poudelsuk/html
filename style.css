@@ -9,11 +9,13 @@ body{
 }
 .null{
     background-color: yellow;
+    padding:30px;
 }
 img{
     aspect-ratio: 3/2;
     height:300;
     width:auto
+    
 }
 
 .foo h3{
@@ -29,5 +31,27 @@ ul{
 }
 .hobby{
     background-color: aquamarine;
+}
+label{
+    display:block;
+}
+input{
+    display:block;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding:8px;
+    padding-left: 12px;
+    background-color: cornsilk;
+    color:blue;
+}
+button:hover{
+    background-color: aquamarine;
+    
 }
 
